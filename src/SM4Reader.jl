@@ -8,9 +8,9 @@
 ##!
 ##!
 
-# module SM4Reader
+module SM4Reader
 
-# export parse
+export parse
 
 using Match
 
@@ -315,7 +315,4 @@ function parse(file::String)
     return (raw, sm4)
 end
 
-# end # module sm4reader
-
-file = raw"C:\Users\labuser\Desktop\dI-dV - TaS2 9k_2021_02_03_17_00_40_165.sm4"
-_, sm4 = parse(file)
+end # module sm4reader
