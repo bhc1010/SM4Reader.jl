@@ -1,0 +1,7 @@
+name = "SM4Reader"
+uuid = "eedf1448-ef50-4068-9170-922505409706"
+authors = ["labuser "]
+version = "0.1.0"
+
+[deps]
+EnumX = "4e289a0a-7415-4d19-859d-a7e5c4648b56"
